@@ -2,7 +2,7 @@ const express = require("express")
 const cron = require("node-cron")
 const router = express.Router()
 
-cron.schedule('* * * * *', () => {
+cron.schedule('* * * *', () => {
     check();
   });
 
